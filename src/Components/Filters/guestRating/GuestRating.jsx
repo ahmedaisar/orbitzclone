@@ -1,9 +1,10 @@
 import React from "react";
 import Box from "@material-ui/core/Box";
-import { v4 as uuid } from "uuid";
+// import { v4 as uuid } from "uuid";
 import FilterCard from "../FilterCard";
 const GuestRating = (props) => {
   const { filter, handleFilter } = props;
+  console.log(filter)
   const guestRate = [
     { label: "Any", name: "Any" },
     { label: "Wonderful 4.5+", name: "Wonderful45" },

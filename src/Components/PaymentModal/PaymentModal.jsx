@@ -1,4 +1,4 @@
-import { Box, Button, Divider, makeStyles, Modal, Typography } from "@material-ui/core";
+import { Box, Divider, makeStyles, Modal} from "@material-ui/core";
 import { useState } from "react";
 import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
 import { useHistory } from "react-router-dom";
@@ -9,9 +9,9 @@ export function PaymentModal() {
     const temp = Number(hotel.price) * (13 / 100);
     const [pay, setPay] = useState(false)
     const history = useHistory();
-    const handleClose = () => {
-        setPay(false);
-    }
+    // const handleClose = () => {
+    //     setPay(false);
+    // }
     const useStyles = makeStyles({
         modal: {
             width: "630px",

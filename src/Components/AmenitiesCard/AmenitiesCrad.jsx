@@ -1,7 +1,7 @@
 import { Box, Card, Container, Grid, Typography } from '@material-ui/core'
 import React from 'react'
 import { useStyles } from '../AmenitiesCard/AmenitiesCardMake';
-import { Link } from '@material-ui/core';
+
 import WifiIcon from '@material-ui/icons/Wifi';
 import PeopleOutlineIcon from '@material-ui/icons/PeopleOutline';
 import LocalParkingIcon from '@material-ui/icons/LocalParking';

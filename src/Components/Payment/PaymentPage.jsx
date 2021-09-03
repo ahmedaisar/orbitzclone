@@ -1,9 +1,9 @@
 import styles from "./PaymentPage.module.css";
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 import CreditCardIcon from '@material-ui/icons/CreditCard';
-import { Button, Divider, MenuItem, TextField, Typography } from "@material-ui/core";
+import {  Divider, Typography } from "@material-ui/core";
 import { useEffect } from "react";
-import { Temp } from "./temp";
+// import { Temp } from "./temp";
 import StripeCheckout from "react-stripe-checkout";
 import axios from "axios";
 import { useSelector } from "react-redux";
@@ -11,7 +11,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { green } from "@material-ui/core/colors";
 import LockIcon from '@material-ui/icons/Lock';
-import { Redirect, useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import StarRateIcon from '@material-ui/icons/StarRate';
 
 

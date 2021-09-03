@@ -1,4 +1,4 @@
-import { Box, makeStyles, Tab, Tabs, Typography } from "@material-ui/core";
+import { Box, makeStyles, Tab, Tabs } from "@material-ui/core";
 import { useSelector } from "react-redux";
 import StarRateIcon from '@material-ui/icons/StarRate';
 import styles from "./HotelPage.module.css";

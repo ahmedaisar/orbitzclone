@@ -1,4 +1,4 @@
-import { Box, TextField, makeStyles, MenuItem, Button, Checkbox, Typography } from "@material-ui/core";
+import { Box, TextField, makeStyles, MenuItem, Checkbox } from "@material-ui/core";
 import { useEffect } from "react";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
@@ -9,6 +9,7 @@ import styles from "./Home.module.css";
 export function SearchCompact() {
     const [addFlight, setAddFlight] = useState(false);
     const [addCar, setAddCar] = useState(false);
+    console.log(addFlight.valueOf,addCar)
     const dispatch = useDispatch();
     let history = useHistory();
     const [queryDetails, setQueryDetails] = useState({});
