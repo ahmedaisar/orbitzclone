@@ -77,6 +77,6 @@ Install this project with npm
 ## Acknowledgements
 
  - Images ang logos are taken from [Orbitz.com](https://orbitz.com)
- - hosted link[](https://orbitz.netlify.app)
+ - hosted link[https://orbitz.netlify.app](https://orbitz.netlify.app)
 
   
